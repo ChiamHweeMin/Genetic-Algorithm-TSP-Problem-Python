@@ -270,7 +270,6 @@ point_plot = []
 for city in bestRoute:
     coordinates = cities_dict[city]
     point_plot.append(coordinates)
-print(point_plot)
 
 for xlongt, ylat in coordinates_list:
     plt.scatter(xlongt, ylat)
